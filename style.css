@@ -10,4 +10,99 @@ body{
 
 .container{
   height: 10vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.8)0%,
+    rgba(0,0,0,0.2)20%,
+    rgba(20,20,20,0.2)80%,
+    rgba(20,20,20,1)100%
+  ),
+  url(../Netflix/assets/poster.jpg);
+  background-size: cover;
+  padding:0.26rem 0.75rem  0 0.75rem;
 }
+.hero{
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 3rem;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 5.8rem;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.menu-left,
+.menu-right{
+  display: flex;
+  color:white;
+  font-size: .87rem;
+}
+.menu ul{
+  display: flex;
+  list-style:none;
+  align-items: center;
+}
+.menu ul li{
+  padding-right:.9rem ;
+
+}
+.menu.user img{
+  width: 2rem;
+  margin-right: .5rem;
+}
+.menu.user{
+  display: flex;
+  align-items: center;
+}
+.menu i{
+  font-size: 20px;
+
+}
+.menu-right ul li{
+  padding-right:1.5rem;
+}
+.banner{
+  height: 80%;
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  width: 50%;
+  color: #fff;
+}
+.banner.poster{
+  width: 450px;
+}
+.banner.subtitle{
+  font-size:1.25rem;
+  color: #fff;
+  line-height:1.25 ;
+  padding-top: 5rem;
+
+}
+
+.buttons{
+   margin-top:2rem ;
+}
+.buttons.btn{
+   color:#fff;
+   padding: 0.6rem 2rem;
+   margin-right: 75rem;
+   font-weight: 600;
+   border-radius: 0.125rem;
+   background: rgba(51,51,51, 0.4);
+   font-family: inherit;
+   font-size: 100%;
+   border: 0;
+}
+
