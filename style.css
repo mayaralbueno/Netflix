@@ -17,7 +17,7 @@ body{
     rgba(20,20,20,0.2)80%,
     rgba(20,20,20,1)100%
   ),
-  url(../Netflix/assets/poster.jpg);
+  url(../Netflix/assets/poster\ good\ place.jpg);
   background-size: cover;
   padding:0.26rem 0.75rem  0 0.75rem;
 }
@@ -105,4 +105,8 @@ body{
    font-size: 100%;
    border: 0;
 }
+.buttons.btn i{
+  margin-right: 0.5rem;
+}
+
 
