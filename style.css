@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0 auto;
+  padding: 0;
+  font-family: arial;
+  background-color: black;
+}
+
+.container{
+  height: 10vh;
+}
