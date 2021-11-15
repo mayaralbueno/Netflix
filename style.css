@@ -18,6 +18,10 @@ body {
 			rgba(20, 20, 20, 0.2) 80%,
 			rgba(20, 20, 20, 1) 100%
 		),
+		
+}
+.container{
+	background-image: url(../Netflix/assets/banner.png);
 }
 .hero {
 	width: 100%;
@@ -66,6 +70,7 @@ body {
 }
 .menu-right ul li {
 	padding-right: 1.5rem;
+
 }
 .banner {
 	height: 80%;
@@ -74,7 +79,7 @@ body {
 	justify-content: center;
 	width: 110%;
 	
-  background-image: url(../Netflix/assets/good.jpg);
+
 }
 .banner .poster {
 	width: 450px;
